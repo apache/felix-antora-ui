@@ -1,0 +1,11 @@
+:root {
+  /* colors */
+  /* navbar */
+  --navbar-background: var(--color-smoke-70);
+  --navbar_hover-background: var(--color-smoke-90);
+  --navbar-font-color: var(--color-gray-50);
+  --navbar-height: calc(90 / var(--rem-base) * 1rem);
+  --navbar-image-height: calc(72 / var(--rem-base) * 1rem);
+  /* footer */
+  --footer-background: var(--color-smoke-70);
+}

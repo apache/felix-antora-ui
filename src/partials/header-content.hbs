@@ -1,0 +1,55 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/index.html">
+        <span>
+          <img src="{{siteRootPath}}/_/img/feather.svg">
+        </span>
+        <span>
+          <img src="{{siteRootPath}}/_/img/logo.png">
+        </span>
+        {{site.title}}
+      </a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/index.html">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Projects</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-dependency-manager.html"}}}">Dependency Manager</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-deployment-admin.html"}}}">Deployment Admin</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-event-admin.html"}}}">Event Admin</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-file-install.html"}}}">File Install</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-framework.html"}}}">Framework</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-gogo.html"}}}">Gogo Shell</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-healthchecks.html"}}}">Health Checks</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-inventory.html"}}}">Inventory</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-jaas.html"}}}">JAAS</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-log.html"}}}">Log</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-logback.html"}}}">Logback</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-maven-bundle-plugin.html"}}}">Maven bundle plugin</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-maven-scr-plugin.html"}}}">Maven SCR plugin</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-metatype-service.html"}}}">Metatype Service</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-preferences-service.html"}}}">Preferences Service</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-remote-shell.html"}}}">Remote Shell</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-script-console-plugin.html"}}}">Script console plugin</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-shell.html"}}}">Lightweight shell</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-shell-tui.html"}}}">Shell TUI</a>
+            <a class="navbar-item" href="{{{relativize "/documentation/documentation/subprojects/apache-felix-web-console.html"}}}">Web Console</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="{{{relativize "/documentation/downloads/currentreleases.html"}}}">Downloads</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
